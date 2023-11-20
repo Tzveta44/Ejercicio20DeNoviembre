@@ -1,5 +1,7 @@
-package com.corenetwork.modelo;public class Empleado {
-   private int id;
+package com.corenetwork.modelo;
+
+public class Empleado {
+    private  int id;
 
     @Override
     public String toString() {
@@ -22,5 +24,4 @@ package com.corenetwork.modelo;public class Empleado {
     public void setId(int id) {
         this.id = id;
     }
-}
 }
